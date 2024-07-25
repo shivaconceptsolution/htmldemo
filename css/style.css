@@ -1,0 +1,54 @@
+*
+{
+    margin: 0px;;
+}
+header
+{
+    height:100px;
+    background-color: cyan;
+}
+header .logo, header .menu{
+    width:49%;
+    height:100%;
+    border:1px solid red;
+    float:left;
+    margin-left: 6px;
+}
+section
+{
+height: 500px;
+background-color: orange;
+}
+section .leftsidebar, section .rightsidebar
+{
+width:49%;
+float:left;
+height: 80%;
+margin-left: 5px;
+border:1px solid red;
+}
+section .rightsidebar
+{
+background-color:gray;
+}
+
+.fullwidthsection
+{
+clear: left;
+height: 20%;
+background-color: black;
+}
+footer
+{
+height: 200px;
+background-color: cyan;
+}
+
+footer .footerpart
+{
+float:left;
+width:33%;
+height:100%;
+margin-left: 2px;
+border:1px solid red;
+}
